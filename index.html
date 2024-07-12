@@ -28,13 +28,13 @@
                 <a class="nav-link active text-light" aria-current="page" href="#">HOME</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link text-light" href="#">GENRES</a>
+                <a class="nav-link text-light" href="#genres">GENRES</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link text-light" href="#">FAVOURITES</a>
+                <a class="nav-link text-light" href="#favourite">FAVOURITES</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link text-light" href="#">CONTACT US</a>
+                <a class="nav-link text-light" href="#contact">CONTACT US</a>
               </li>
               
             </ul>
@@ -53,34 +53,34 @@
 
       <!--Movie Genres-->
 
-      <section class="movie-genres-title">
+      <section class="movie-genres-title" id="genres">
         <h1>Movie Genres</h1>
         
         <div class="row">
             <div class="genre-col">
-              <a href="#"><img src="img/action-genre.jpg" alt="action movies"></a>
-            <h5 class="movie-title">Action</h5>
+              <a href="action.html"><img src="img/action-genre.jpg" alt="action movies">
+            <h5 class="movie-title">Action</h5></a>
         </div>
             <div class="genre-col">
-              <a href="#"><img src="img/adventure.jpg" alt="adventure movies"></a>
-            <h5 class="movie-title">Adventure</h5>
+              <a href="adventure.html"><img src="img/adventure.jpg" alt="adventure movies">
+            <h5 class="movie-title">Adventure</h5></a>
         </div>
       
           <div class="genre-col">
-            <a href="#"><img src="img/romance-genre.jpeg" alt="romance movies"></a>
-          <h5 class="movie-title">Romance</h5>
+            <a href="romance.html"><img src="img/romance-genre.jpeg" alt="romance movies">
+          <h5 class="movie-title">Romance</h5></a>
       </div>
 
           <div class="genre-col">
-            <a href="#"><img src="img/sci-genre.jfif" alt="scifi movie"></a>
-          <h5 class="movie-title">Scifi</h5>
+            <a href="scifi.html"><img src="img/sci-genre.jfif" alt="scifi movie">
+          <h5 class="movie-title">Scifi</h5></a>
       </div>
       </div>
       </section>
 
       <!-----top five movies----->
 
-      <section class="movie-genres-title">
+      <section class="movie-genres-title" id="favourite">
         <h1>Top Five Movies</h1>
         <div class="movie-container">
           <div id="movie-1" class="movie">
@@ -115,14 +115,7 @@
           </div>
         </div> 
       </section>
-      <section>
-        <div class="contact-us">
-          <form action="" class="contact-form">
-            
-          </form>
-        </div>
-      </section>
-
+      
       <!-----footer----->
       
 <footer>
@@ -149,7 +142,22 @@
     </div>
 
   </div>
+  <hr>
+  <section class="contact" id="contact">
+    <div class="contact-us">
+      <form action="" class="contact-form">
+        <label for="contact-form">Subscribe to our letter</label>
+        <input type="text" name="Email" id="enail" placeholder="Email">
+        <input type="button" class="styled" value="Submit">
+      </form>
+    </div>
+  </section>
 </footer>
+
+
+
+
+
 
       
       <script src="js/bootstrap.min.js"></script>

@@ -36,6 +36,7 @@ body {
 
 a {
   text-decoration: none;
+  color: azure;
 }
 
 
@@ -192,7 +193,7 @@ a {
 
   footer{
     background-color: darkslategrey;
-    padding-top: 10px;
+    padding: 10px 0 50px 0;
   }
 
   .footer-items {
@@ -206,4 +207,8 @@ a {
   }
   .about-mrp h6{
     font-size: 12px;
+  }
+
+  .contact {
+    padding-left: 50px;
   }
