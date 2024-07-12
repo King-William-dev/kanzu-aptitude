@@ -1,0 +1,209 @@
+
+* {
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,
+body {
+    height: 100%;
+    width: 80%;
+    margin: auto;
+    background-color: #424242;
+    color: #fff;
+  
+} 
+
+/* Responsive layout - makes a one column layout instead of a two-column layout */
+@media (max-width: 800px) {
+  #movie-1 {
+    flex: 100%;
+  }
+  #movie-2 {
+    flex: 100%;
+  }
+  #movie-3 {
+    flex: 100%;
+  }
+  #movie-4 {
+    flex: 100%;
+  }
+  #movie-5{
+    flex: 100%;
+  }
+}
+
+a {
+  text-decoration: none;
+}
+
+
+/* Navigation Bar */
+.navbar {
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(99,9,121,1) 35%, rgba(0,212,255,1) 100%);
+    position: fixed;
+    width: 64%;
+    top: 0;
+    padding: 10px;
+}
+
+.navbar img {
+    border-radius: 10px;
+}
+
+/* End of Navigation Bar */
+
+.page-header{
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    margin-top: 60px;
+    padding-top: 100px;
+    background-color: #4A235A;
+}
+
+.page-header img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    padding-top: 50px;
+}
+
+/* Movie Genres */
+
+.movie-genres-title{
+    width: 100%;
+    margin: auto;
+    padding-top: 70px;
+    text-align: center;
+    background-color: #4A235A;
+}
+
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    border-top: 0;
+}
+
+.genre-col {
+    flex: 25%;
+    padding: 20px;
+    text-align: center;
+
+}
+
+
+.row img {
+    width: 100%;
+    height: auto;
+    object-fit: fill;
+    border-radius: 10px 10px 0 0;
+
+}
+
+.movie-title{
+    background-color: #424242;
+    padding-bottom: 10px;
+    margin-top: -5px;
+    border-radius: 5px;
+
+}
+
+.genre-col h5 {
+    padding-top: 20px;
+}
+
+
+/* Top five Movies */
+
+.movie-container {
+    height: 100%;
+    background-color: #4A235A;
+    display: flex;
+    gap: 2px;
+    flex-wrap: wrap;
+    padding: 20px 0 20px 20px;
+}
+#movie-1 {
+  background-color: blueviolet;
+    width: 24%;
+    height: auto;
+    text-align: center;
+    border-radius: 5px;
+  }
+
+  #movie-2 {
+    background-color: blueviolet;
+    width: 24%;
+    height: auto;
+    border-radius: 5px;
+  }
+
+  #movie-3 {
+    background-color: blueviolet;
+    width: 24%;
+    height: auto;
+    border-radius: 5px;
+  }
+
+  #movie-4 {
+    background-color: blueviolet;
+    width: 24%;
+    height: auto;
+    border-radius: 5px;
+  }
+
+  #movie-5 {
+    background-color: blueviolet;
+    width: 24%;
+    height: auto;
+    border-radius: 5px;
+  }
+
+  .movie img{
+    object-fit: fill;
+    height: 70%;
+    padding: 10px 0 10px 0;
+    border-radius: 10px;
+  }
+
+  .movie-rank {
+    background-color: red;
+    border-radius: 50px;
+    width: 20px;
+    margin-left: 45%;
+    margin-bottom: 5px;
+    
+  }
+  .watch-btn {
+    background-color: aliceblue;
+    color: rgb(2,0,36);
+    width: 70%;
+    margin-left: 15%;
+    font-size: 0.8rem;
+    border-radius: 50px;
+
+  }
+
+  /* Footer */
+
+  footer{
+    background-color: darkslategrey;
+    padding-top: 10px;
+  }
+
+  .footer-items {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 20px 5px 20px;
+  }
+
+  .movie-links h6  {
+    font-size: 12px;
+  }
+  .about-mrp h6{
+    font-size: 12px;
+  }

@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie Ranking Site</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="icon" type="image/x-icon" href="/img/favicon.ico">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="container">
+          <a class="navbar-brand" href="#"> <img src="img/logo.png"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active text-light" aria-current="page" href="#">HOME</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-light" href="#">GENRES</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-light" href="#">FAVOURITES</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-light" href="#">CONTACT US</a>
+              </li>
+              
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+    <!-- Header Section -->
+
+      <section class="page-header">
+        <h1>Movie Ranking Site</h1>
+        <p>An awesome platform for sharing
+          my taste in favorite Movies or Music</p>
+          <img src="img/header-image.png" alt="grand turismo movie">
+      </section>
+
+      <!--Movie Genres-->
+
+      <section class="movie-genres-title">
+        <h1>Movie Genres</h1>
+        
+        <div class="row">
+            <div class="genre-col">
+              <a href="#"><img src="img/action-genre.jpg" alt="action movies"></a>
+            <h5 class="movie-title">Action</h5>
+        </div>
+            <div class="genre-col">
+              <a href="#"><img src="img/adventure.jpg" alt="adventure movies"></a>
+            <h5 class="movie-title">Adventure</h5>
+        </div>
+      
+          <div class="genre-col">
+            <a href="#"><img src="img/romance-genre.jpeg" alt="romance movies"></a>
+          <h5 class="movie-title">Romance</h5>
+      </div>
+
+          <div class="genre-col">
+            <a href="#"><img src="img/sci-genre.jfif" alt="scifi movie"></a>
+          <h5 class="movie-title">Scifi</h5>
+      </div>
+      </div>
+      </section>
+
+      <!-----top five movies----->
+
+      <section class="movie-genres-title">
+        <h1>Top Five Movies</h1>
+        <div class="movie-container">
+          <div id="movie-1" class="movie">
+            <img src="img/cover.jpg" alt="cover">
+            <div class="movie-rank">1</div>
+            <h6>Cover</h6>
+            <a href="https://www.youtube.com/watch?v=v51TfA6CGjM" target="_blank"><div class="watch-btn">Watch Now</div></a>
+          </div>
+          <div id="movie-2" class="movie">
+            <img src="img/casablanca.jpg" alt="casablanca">
+            <div class="movie-rank">2</div>
+            <h6>Casablanca</h6>
+            <a href="https://www.youtube.com/watch?v=Ol8FdhZpzTw" target="_blank"><div class="watch-btn">Watch Now</div></a>
+          </div>
+          <div id="movie-3" class="movie">
+            <img src="img/flowers-of-war.jpg" alt="flowers-of-war">
+            <div class="movie-rank">3</div>
+            <h6>Flowers of War</h6>
+            <a href="https://www.youtube.com/watch?v=cj2uhyfVNmQ" target="_blank"><div class="watch-btn">Watch Now</div></a>
+          </div>
+          <div id="movie-4" class="movie">
+            <img src="img/the-forge.jpg" alt="the-forge">
+            <div class="movie-rank">4</div>
+            <h6>The Forge</h6>
+            <a href="https://www.youtube.com/watch?v=s4aCsaDvagw" target="_blank"><div class="watch-btn">Watch Now</div></a>
+          </div>
+          <div id="movie-5" class="movie">
+            <img src="img/thor.jpg" alt="thor">
+            <div class="movie-rank">5</div>
+            <h6>Thor</h6>
+            <a href="https://www.youtube.com/watch?v=PP6ZIrPxwH8" target="_blank"><div class="watch-btn">Watch Now</div></a>
+          </div>
+        </div> 
+      </section>
+
+      <!-----footer----->
+      
+<footer>
+  <div class="footer-items">
+    <div class="movie-links">
+      <h4>Movie Links</h4>
+      <h6>MRP Home Page</h6>
+      <h6>MRP Latest Review</h6>
+      <h6>Browse Movies</h6>
+      <h6>find New Channels</h6>
+    </div>
+    <div class="about-mrp">
+      <h4>MRP</h4>
+      <h6>About MRP</h6>
+      <h6>Advertise on MRP</h6>
+      <h6>Terms of Service</h6>
+      <h6>Get Youtube Data</h6>
+    </div>
+    <div class="cta">
+      <h4>Contact Us</h4>
+      <div class="cta-icons">
+      <i class="fa fa-facebook-square" aria-hidden="true"></i>
+      </div>
+    </div>
+
+  </div>
+</footer>
+
+      
+      <script src="js/bootstrap.min.js"></script>
+</body>
+</html>
